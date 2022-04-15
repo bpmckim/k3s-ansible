@@ -1,0 +1,6 @@
+	
+
+helm install rancher rancher-stable/rancher \
+--namespace cattle-system \
+--set hostname=rancher.mckim.co.local \
+--version 2.5.6
